@@ -10,3 +10,6 @@ class Solution:
                 r.append(word2[b])
                 b += 1
         return "".join(r)
+
+# Time Complexity O(n)
+# Space Complexitu O(1)

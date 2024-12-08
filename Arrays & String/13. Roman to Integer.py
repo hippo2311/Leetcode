@@ -10,3 +10,5 @@ class Solution:
             else:
                 total += d[s[i]]  # Add this numeral
         return total
+# Time Complexity: O(N)
+# Space Complexity: O(1)
