@@ -19,6 +19,6 @@ class Solution:
             return check(p.right, q.right) and check(p.left, q.left)
         return check(p,q)
 
-# Time Complexity: O(n + m)
+# Time Complexity: O(n + m)   
 # Space Complexity: O(n + m)
 # m is number of nodes in p, n is number of nodes in Q.
